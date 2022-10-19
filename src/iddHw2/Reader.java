@@ -27,8 +27,6 @@ public class Reader {
 		Directory directory = FSDirectory.open(path);
 		IndexReader reader = DirectoryReader.open(directory);		
 		IndexSearcher searcher = new IndexSearcher(reader);
-
-
 		QueryParser parser = new MultiFieldQueryParser(new String[] {"nome", "contenuto"}, new WhitespaceAnalyzer());;
 		Scanner keyboard = new Scanner(System.in);
 		System.out.println("Cosa stai cercando?");		
