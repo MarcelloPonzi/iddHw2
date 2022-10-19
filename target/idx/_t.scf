@@ -1,4 +1,4 @@
-cfs entry for: _1.fld
+cfs entry for: _t.fld
 doc 0
   field 0
     name nome
@@ -10,7 +10,7 @@ doc 0
     value Ãˆ passato poco piÃ¹ di un anno da quando Batman ha fatto la sua comparsa e Gotham City Ã¨ diventata un posto migliore, con la malavita terrorizzata, ma anche con alcuni vigilanti improvvisati che cercano in tutti i modi di imitare l'Uomo Pipistrello, il quale disapprova un simile operato e fa capire di non poter condividere la sua missione con nessuno. Sia il tenente James Gordon che il nuovo procuratore distrettuale Harvey Dent, fidanzato con l'assistente Rachel Dawes, vecchia amica di infanzia di Bruce Wayne, cercano senza successo di incastrare il boss mafioso Sal Maroni. Wayne appoggia Dent sia come uomo pubblico che come Batman, collaborando con lui e Gordon per portare di fronte alla giustizia il crimine organizzato: Bruce ritiene che, con Dent a proteggere Gotham dal crimine, potrÃ  dismettere i panni di Batman e vivere un'esistenza felice con Rachel.Dopo aver rapinato una banca che ricicla il denaro della mafia, il Joker, un folle criminale che si trucca da clown e di cui nessuno conosce l'identitÃ , compare ad una riunione dei capi della malavita di Gotham proponendo la morte di Batman come unica soluzione per tornare alla normalitÃ . Wayne entra in azione per catturare il loro contabile Lau Chen, che si trova in un raid a Hong Kong: siccome i cinesi non concederebbero lâ€™estradizione per un connazionale, Bruce indossa la nuova tuta creata dal dirigente della Wayne Enterprises, Lucius Fox, e vola a Hong Kong per coglierlo di sorpresa. Mentre Lau viene interrogato, Dent trova un appiglio legale per incastrare centinaia di criminali. Joker quindi, con l'approvazione dei capi mafiosi, mette in atto il suo piano: chiede pubblicamente che Batman riveli la sua identitÃ  e si faccia arrestare, pena la morte di almeno una vittima per ogni giorno che passa. Dopo aver impiccato uno dei vigilanti improvvisati, Joker fa saltare in aria l'auto con allâ€™interno il giudice del processo a Maroni e avvelena mortalmente il commissario Loeb; la vittima successiva dovrebbe essere proprio Harvey Dent, che viene perÃ² salvato da Wayne nel proprio attico durante una festa di beneficenza, dove Joker nel frattempo tiene sotto tiro Rachel. Bruce, nei panni di Batman, ingaggia una lotta con il folle clown e i suoi uomini; Joker, nella foga della colluttazione, prende Rachel e la butta dal palazzo, ma viene subito salvata dal giustiziere, mentre i criminali ne approfittano per fuggire e lasciare la festa. Il successivo bersaglio di Joker Ã¨ il sindaco GarcÃ¬a, preso di mira durante la parata commemorativa per il commissario Loeb ma che viene salvato da Gordon, il quale muore frapponendosi tra il sindaco e il proiettile sparato da un Joker camuffato da poliziotto. Wayne, sotto le pressanti lamentele degli abitanti di Gotham, Ã¨ pronto a rivelare pubblicamente il suo segreto ma Dent, in una conferenza stampa convocata per l'occasione (consigliatagli peraltro dallo stesso Wayne nelle vesti di Batman), lo anticipa e si costituisce. Harvey ne ha un valido motivo: sa che appena Joker si farÃ  vivo, Batman lo fermerÃ . Come previsto, il clown entra in azione e durante un inseguimento tenta di distruggere il mezzo blindato che trasporta Dent al penitenziario; Batman interviene in tempo e, con uno scontro aperto nelle strade, attira Joker allo scoperto quanto basta per farlo catturare da Gordon, che aveva finto la sua morte per evitare di mettere la propria famiglia in pericolo.
 END
 checksum 00000000000677930365
-cfs entry for: _1.inf
+cfs entry for: _t.inf
 number of fields 2
   name nome
   number 0
@@ -45,7 +45,7 @@ number of fields 2
   vector similarity EUCLIDEAN
   soft-deletes false
 checksum 00000000001456767576
-cfs entry for: _1.len
+cfs entry for: _t.len
 field nome
   type NUMERIC
   minvalue 3
@@ -60,7 +60,7 @@ field contenuto
 T
 END
 checksum 00000000002619398684
-cfs entry for: _1.pst
+cfs entry for: _t.pst
 field contenuto
   term abitanti
     doc 0
@@ -1433,16 +1433,16 @@ field nome
 END
 checksum 00000000000598038596
 table of contents, size: 4
-  filename: _1.fld
+  filename: _t.fld
     start: 22
     end: 3640
-  filename: _1.inf
+  filename: _t.inf
     start: 3662
     end: 4440
-  filename: _1.len
+  filename: _t.len
     start: 4462
     end: 4612
-  filename: _1.pst
+  filename: _t.pst
     start: 4634
     end: 22416
 table of contents begins at offset: 0000000000000022416

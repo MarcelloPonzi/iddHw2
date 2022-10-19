@@ -1,4 +1,4 @@
-cfs entry for: _2.fld
+cfs entry for: _u.fld
 doc 0
   field 0
     name nome
@@ -10,7 +10,7 @@ doc 0
     value Nel XXI secolo il pianeta Terra sta diventando inabitabile per l'uomo: il cibo scarseggia perchÃ© solo poche colture resistono alla "piaga", un flagello naturale che si nutre di azoto e che consuma l'ossigeno dellâ€™atmosfera, ed immense tempeste di sabbia rendono la vita quotidiana impossibile. Come conseguenza si Ã¨ affermata una societÃ  basata sulla post-veritÃ , che nega le conquiste scientifiche e spaziali e concentra le poche energie disponibili sulla produzione di cibo; il genere umano appare comunque destinato all'estinzione in breve tempo. Joseph Cooper, ingegnere ed ex pilota della NASA vedovo, vive nella sua fattoria con la sua famiglia, composta dal suocero Donald e dai suoi figli, Tom e la dodicenne Murphy, detta Murph, prodigio della matematica, che assiste nella sua stanza a strani fenomeni quali la caduta a ritmo di libri e di altri oggetti dalla libreria: la sua conclusione Ã¨ che la stanza sarebbe infestata da un "fantasma" invisibile che starebbe cercando di comunicare co lei in codice Morse. Durante una grande tempesta di sabbia, sul pavimento della stanza si formano delle strisce di sabbia. Cooper intuisce possa trattarsi di codice binario e, decifrandolo, ottiene delle coordinate geografiche. Decisi a svelare il mistero, Cooper e Murph si recano nel luogo indicato dalle coordinate, arrivandovi dopo un giorno di viaggio: lÃ¬ la strada termina di fronte ad una recinzione. Non appena tentano di scassinarla, vengono catturati e condotti in quella che si rivelerÃ  essere una base segreta della NASA, localizzata in un centro NORAD e guidata dal professor John Brand e da sua figlia Amelia, valente biologa. Il professor Brand ritiene che Cooper sia stato "scelto", dunque gli rivela un piano elaborato dalla NASA per salvare l'umanitÃ . Per prima cosa gli svela l'esistenza di un cunicolo spazio-temporale (wormhole) comparso 48 anni prima in prossimitÃ  di Saturno, che secondo gli scienziati Ã¨ opera di una civiltÃ  superiore (dal momento che un wormhole non puÃ² nascere da solo ma deve essere creato) composta da esseri penta-dimensionali che intenderebbero aiutare il genere umano. Il cunicolo infatti conduce a nuovi pianeti, i quali potrebbero costituire una nuova "casa" per l'umanitÃ . La NASA aveva quindi lanciato, piÃ¹ di dieci anni prima, la missione Lazarus, inviando dodici astronauti su altrettanti pianeti, attraverso il wormhole. Tre astronauti su dodici, i dottori Miller, Edmunds e Mann, avevano inviato dati promettenti relativi a tre pianeti, sui quali sembrerebbe possibile sopravvivere, tutti orbitanti attorno a un gigantesco buco nero chiamato Gargantua.
 END
 checksum 00000000002802133992
-cfs entry for: _2.inf
+cfs entry for: _u.inf
 number of fields 2
   name nome
   number 0
@@ -45,7 +45,7 @@ number of fields 2
   vector similarity EUCLIDEAN
   soft-deletes false
 checksum 00000000001456767576
-cfs entry for: _2.len
+cfs entry for: _u.len
 field nome
   type NUMERIC
   minvalue 1
@@ -60,7 +60,7 @@ field contenuto
 T
 END
 checksum 00000000001966982880
-cfs entry for: _2.pst
+cfs entry for: _u.pst
 field contenuto
   term 48
     doc 0
@@ -1209,16 +1209,16 @@ field nome
 END
 checksum 00000000001387744475
 table of contents, size: 4
-  filename: _2.fld
+  filename: _u.fld
     start: 22
     end: 2838
-  filename: _2.inf
+  filename: _u.inf
     start: 2860
     end: 3638
-  filename: _2.len
+  filename: _u.len
     start: 3660
     end: 3810
-  filename: _2.pst
+  filename: _u.pst
     start: 3832
     end: 18632
 table of contents begins at offset: 0000000000000018632

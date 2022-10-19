@@ -1,4 +1,4 @@
-cfs entry for: _3.fld
+cfs entry for: _v.fld
 doc 0
   field 0
     name nome
@@ -10,7 +10,7 @@ doc 0
     value In seguito a un attacco subito da due uomini con il volto coperto, che avevano stuprato e ucciso la moglie, Leonard Shelby Ã¨ affetto da un disturbo della memoria per i fatti recenti (amnesia anterograda); non Ã¨ quindi in grado di immagazzinare nuove informazioni per piÃ¹ di una quindicina di minuti. Per cercare di sopperire a questa mancanza cerca di scrivere e prendere appunti il piÃ¹ possibile su post-it, foto e perfino sulla propria pelle. Il suo corpo Ã¨ infatti ricoperto da numerosi tatuaggi che gli forniscono indicazioni su cosa Ã¨ successo e cosa dovrÃ  fare. Si impone questo metodo mnemonico in seguito a un caso di lavoro affrontato prima dell'incidente, quando era investigatore in una compagnia di assicurazioni e si occupava di scovare gli impostori nei casi di false denunce di risarcimento. Il suo caso piÃ¹ complesso era stato quello con l'ex commercialista cinquantottenne Sammy Jankis: analogamente a lui - in seguito a un incidente - Jankis aveva perso la possibilitÃ  di immagazzinare nuove informazioni attraverso la memoria a lungo termine. Leonard, dopo numerose visite e test, aveva concluso la perizia dichiarando un problema mentale e non fisico, ed escludendo quindi Jankis dal risarcimento assicurativo. La moglie di Jankis non si era data pace, non tanto per la conclusione della perizia, bensÃ¬ per la mancanza di un vero futuro a fianco del marito. Il presente era vissuto semplicemente nella quotidianitÃ  di gesti ripetitivi, che Jankis eseguiva senza problemi poichÃ© antecedenti all'incidente, come le iniezioni di insulina necessarie per il diabete della consorte.
 END
 checksum 00000000000820229573
-cfs entry for: _3.inf
+cfs entry for: _v.inf
 number of fields 2
   name nome
   number 0
@@ -45,7 +45,7 @@ number of fields 2
   vector similarity EUCLIDEAN
   soft-deletes false
 checksum 00000000001456767576
-cfs entry for: _3.len
+cfs entry for: _v.len
 field nome
   type NUMERIC
   minvalue 1
@@ -60,7 +60,7 @@ field contenuto
 T
 END
 checksum 00000000003610673524
-cfs entry for: _3.pst
+cfs entry for: _v.pst
 field contenuto
   term affetto
     doc 0
@@ -739,16 +739,16 @@ field nome
 END
 checksum 00000000000562096500
 table of contents, size: 4
-  filename: _3.fld
+  filename: _v.fld
     start: 22
     end: 1808
-  filename: _3.inf
+  filename: _v.inf
     start: 1830
     end: 2608
-  filename: _3.len
+  filename: _v.len
     start: 2630
     end: 2780
-  filename: _3.pst
+  filename: _v.pst
     start: 2802
     end: 11527
 table of contents begins at offset: 0000000000000011527

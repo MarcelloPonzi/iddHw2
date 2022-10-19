@@ -36,32 +36,32 @@ public class Indixer {
 
 	public void indicizza() throws IOException {
 		Directory directory = FSDirectory.open(path);
-		
-		
-        File dirfiles = new File("Resources");
-        File[] files = dirfiles.listFiles();
-        
-        //Analyzers
-        Analyzer analnome = CustomAnalyzer.builder()
-        		 			.withTokenizer(WhitespaceTokenizerFactory.class)
-        		 			.addTokenFilter(LowerCaseFilterFactory.class)
-        		 			.addTokenFilter(WordDelimiterGraphFilterFactory.class)
-        		 			.build();
-      
-        
-        Map<String, Analyzer> perFieldAnalyzers = new HashMap<>();
-        CharArraySet stopWords = new CharArraySet(Arrays.asList("in", "dei", "di", "a", "da","la","il", "lo"), 
-        true);
-        perFieldAnalyzers.put("nome", analnome);
-        perFieldAnalyzers.put("contenuto", new StandardAnalyzer(stopWords));
-        Analyzer analyzer = new PerFieldAnalyzerWrapper(new ItalianAnalyzer(), 
-        perFieldAnalyzers);
-        
-        IndexWriterConfig configurazione = new IndexWriterConfig(analyzer);
-        configurazione.setCodec(new SimpleTextCodec());
-        IndexWriter writer = new IndexWriter(directory, configurazione);
-        writer.deleteAll();
-        
+
+
+		File dirfiles = new File("Resources");
+		File[] files = dirfiles.listFiles();
+
+		//Analyzers
+		Analyzer analnome = CustomAnalyzer.builder()
+				.withTokenizer(WhitespaceTokenizerFactory.class)
+				.addTokenFilter(LowerCaseFilterFactory.class)
+				.addTokenFilter(WordDelimiterGraphFilterFactory.class)
+				.build();
+
+
+		Map<String, Analyzer> perFieldAnalyzers = new HashMap<>();
+		CharArraySet stopWords = new CharArraySet(Arrays.asList("in", "dei", "di", "a", "da","la","il", "lo", true), 
+				true);
+		perFieldAnalyzers.put("nome", analnome);
+		perFieldAnalyzers.put("contenuto", new StandardAnalyzer(stopWords));
+		Analyzer analyzer = new PerFieldAnalyzerWrapper(new ItalianAnalyzer(), 
+				perFieldAnalyzers);
+
+		IndexWriterConfig configurazione = new IndexWriterConfig(analyzer);
+		configurazione.setCodec(new SimpleTextCodec());
+		IndexWriter writer = new IndexWriter(directory, configurazione);
+		writer.deleteAll();
+
 
 		// Fetching all the files
 		for (File file : files) {
